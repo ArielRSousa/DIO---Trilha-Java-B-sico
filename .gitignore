@@ -1,3 +1,20 @@
-conta-banco/.vscode/
-conta-banco/bin/
-conta-banco/lib/
+# Ignore as pastas de configuração do IntelliJ IDEA
+/.idea
+*.iml
+
+# Ignore as pastas de compilação
+/out/
+*/bin/
+*/build/
+
+# Ignore dependências de bibliotecas que podem ser baixadas
+/lib/
+
+# Ignore configurações do Visual Studio Code (se estiver usando)
+.vscode/
+
+# Ignore arquivos de log e de sistema operacional
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
